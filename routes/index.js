@@ -114,7 +114,7 @@ router.put('/blogs/:id', function(req, res){
                 res.redirect('/dashboard')
                 console.log(err)
             } else {
-                req.flash('editMsg', "Successfully edited the blog!!")
+                req.flash('editMsg', "Блог успешно изменен")
                 res.redirect('/blog/' + req.params.id)
             }
         });
