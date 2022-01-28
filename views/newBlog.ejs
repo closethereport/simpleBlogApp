@@ -1,0 +1,29 @@
+<%- include("partials/header") %>
+
+<div class="topnav">
+    <a id="homeNav" class="active" href="/dashboard"></i>Главная</a>
+    <a href="/users/newblog">Новый пост</a>
+    <a id="signinLink" href="/logout">Выйти</a>
+</div>
+
+<div class="formDiv">
+    <form action="/users/newblog" method="POST">
+        <div class="container1">
+            <h1>Создание поста</h1>
+            <label for="inputTitle"><strong>Тема*</strong></label>
+            <input id="inputTitle" type="text" name="title" placeholder="Введите тему">
+            <label for="inputText"><strong>Текст*</strong></label>
+            <textarea id="inputText" name="text" rows="10"></textarea>
+            <label for="inputImg"><strong>Изображение</strong></label>
+            <input id="inputImg" type="text" name="img" placeholder="Ссылка на изображение">
+            <label for="inputCat"><strong>Категория* </strong></label>
+            <select id="inputCat" name="category">
+                <option value="Новости">Новости</option>
+                <option value="Форум">Форум</option>
+            </select>
+        <button class="lrform-btn" type="submit">Опубликовать</button>
+        </div>
+    </form>
+</div>
+
+<%- include("partials/footer") %>
