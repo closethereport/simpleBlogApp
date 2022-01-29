@@ -4,11 +4,9 @@
 ```
 This is a simple blog site where people can post their news
 
-
+```
 [![Watch the video (https://i.imgur.com/ArN48vy.png)](https://youtu.be/ukRNc_9u0LI)
 
-
-```
 ***
 ##Tech stack
 ```
