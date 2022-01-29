@@ -21,7 +21,7 @@ Express.js, Node.js, MySql Database, HTML, CSS, JavaScript.
 ![register](https://user-images.githubusercontent.com/44950920/151654735-abd16579-a67d-4821-bb60-6b87d1de6068.gif)
 
 + Create post system
-https://user-images.githubusercontent.com/44950920/151654793-8bc14028-3fac-489f-99e0-d68ea60eab6a.mp4
+[![Watch the video](https://i.ibb.co/zQZ3TyM/createpost.png)](https://youtu.be/JJW59-TuxA0)
 
 + Update post system
 ![editpost](https://user-images.githubusercontent.com/44950920/151654802-e0a574cf-5f91-44ea-81f7-fe2ad25dd0f5.gif)
