@@ -5,7 +5,7 @@
 This is a simple blog site where people can post their news
 
 
-[![Watch the video](https://user-images.githubusercontent.com/44950920/151654841-ac5fa280-1c79-42a0-ae1a-7dd878abc368.mp4)
+[![Watch the video](https://youtu.be/ukRNc_9u0LI)
 
 
 ```
