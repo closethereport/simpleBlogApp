@@ -1,6 +1,6 @@
-#bBlog - Blogging site
+# bBlog - Blogging site
 ***
-##Overview
+## Overview
 ```
 This is a simple blog site where people can post their news
 
@@ -8,13 +8,13 @@ This is a simple blog site where people can post their news
 [![Watch the video](https://i.ibb.co/VQ7Xrv2/dashboard.png)](https://youtu.be/ukRNc_9u0LI)
 
 ***
-##Tech stack
+## Tech stack
 ```
 Express.js, Node.js, MySql Database, HTML, CSS, JavaScript.
 ```
 ***
 
-##Features
+## Features
 
 + Login/register system
 ![login](https://user-images.githubusercontent.com/44950920/151654729-04d8ec16-d97c-4929-b2f2-10c6ed4ec389.gif)
