@@ -1,0 +1,26 @@
+<%- include("partials/header") %>
+
+<div class="formDivLr">
+    <form class="lrform" action="/users/register" method="POST">
+        <div class="container1">
+            <h1>Регистрация</h1>
+            <label for="inputName"><strong>Имя пользователя</strong></label>
+                <input id="inputName" type="text" name="name" placeholder="Enter Name">
+            <label for="inputEmail"><strong>Email</strong></label>
+                <input id="inputEmail" type="email" name="email" placeholder="Enter Email">
+            <label for="inputPhone"><strong>Номер телефона</strong></label>
+                <input id="inputPhone" type="text" name="phone" placeholder="Enter Phone">
+            <label for="inputPassword"><strong>Пароль</strong></label>
+                <input id="inputPassword" type="password" name="password" placeholder="Enter Password">
+            <label for="inputPassword"><strong>Повтор пароля</strong></label>
+                <input id="inputPassword" type="password" name="password2" placeholder="Confirm Password">
+            <button class="lrform-btn" type="submit">Регистрация</button>             
+        </div>
+        <div class="container1">
+            <a href="/"><button type="button" class="cancelbtn">Отмена</button></a>
+            <span class="lowerText">Уже зарегистрированы?<a href="/users/login"> Войти</a></span>
+        </div>
+    </form>    
+</div>
+
+<%- include("partials/footer") %>

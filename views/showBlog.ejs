@@ -1,0 +1,35 @@
+<%- include("partials/header") %>
+
+<div class="topnav">
+    <a id="homeNav" class="active" href="/dashboard"></i>Главная</a>
+    <a href="/users/newblog">Новый пост</a>
+    <a id="signinLink" href="/logout">Выйти</a>
+</div>
+
+<% if (message && message.length > 0) { %> 
+    <div id="flashDiv" class="flash welcome">
+      <%= message %> 
+    </div>
+<% } %>
+
+<div class="container showblogContainer">
+    <div class="blogshow margin-top-0">
+        <h1 class="margin-top-0"><%= blog[0][0].title %></h1>
+        <h3>Автор: <%= blog[0][0].author %> | Дата публикации: <%= blog[0][0].dateofPublish %></h3>
+        <img class="blogImages showImage" src="<%= blog[0][0].imgURL %>" alt="blog image"><br>
+        <% if (blog[0][0].userEmail === user.email) { %> 
+        <div class="edDiv">
+            <a class="readMore-btn" href="/blogs/<%= blog[0][0].id %>/edit">Редактировать</a>
+            <form id="delete" action="/blogs/<%= blog[0][0].id %>?_method=DELETE" method="POST">
+                <button class="delete-btn">Удалить</button>
+            </form>
+        </div>
+    <% } %> 
+        <p><%= blog[0][0].blogText %></p>
+    </div>
+
+    </div>
+</div>
+
+
+<%- include("partials/footer") %>
